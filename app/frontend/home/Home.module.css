@@ -1,0 +1,80 @@
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    border-radius: 15px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  }
+  
+  .textarea {
+    resize: none;
+    min-height: 100px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: white;
+    color: #4facfe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .button:hover {
+    background: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
+  .mainbgwhitediv{
+    float: left;
+    width: 100%;
+  }
